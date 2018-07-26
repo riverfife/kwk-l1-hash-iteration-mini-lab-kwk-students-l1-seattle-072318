@@ -30,9 +30,10 @@ def iterate_through_hash
   :London => "2012",
   :Atlanta => "1996"
 }
-
-summer_olympics do |x, y|
-puts "The #{x} summer olympics took place in #{y}"
+places = summer_olympics.keys
+years = summer_olympics.values
+summer_olympics do |places, years|
+puts "The #{places} summer olympics took place in #{years}"
 
   # Implement this method so that it iterates over the hash created in add_a_key_value_pair
   # and puts each key value pair within the phrase "The _____ summer olympics took place in _____."
