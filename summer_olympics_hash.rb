@@ -22,7 +22,7 @@ puts summer_olympics
 end
 add_a_key_value_pair
 
-def iterate_through_hash(place,)
+def iterate_through_hash
   summer_olympics = {
   :Sydney => "2000",
   :Athens => "2004",
@@ -31,12 +31,14 @@ def iterate_through_hash(place,)
   :Atlanta => "1996"
 }
 
+summer_olympics do |x, y|
 puts "The #{x} summer olympics took place in #{y}"
 
   # Implement this method so that it iterates over the hash created in add_a_key_value_pair
   # and puts each key value pair within the phrase "The _____ summer olympics took place in _____."
 end
-iterate_through_hash(x,y)
+
+iterate_through_hash
 
 def iterate_through_keys
   # Implement this method so that it converts the keys of the hash created in add_a_key_value_pair
