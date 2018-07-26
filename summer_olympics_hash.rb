@@ -22,7 +22,7 @@ puts summer_olympics
 end
 add_a_key_value_pair
 
-def iterate_through_hash(x,y)
+def iterate_through_hash(place,)
   summer_olympics = {
   :Sydney => "2000",
   :Athens => "2004",
