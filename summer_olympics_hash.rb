@@ -1,5 +1,5 @@
 def create_olympics_hash
-place_year_hash = {
+summer_olympics = {
   :Sydney => "2000",
   :Athens => "2004",
   :Beijing => "2008",
@@ -11,9 +11,10 @@ end
 puts create_olympics_hash
 
 def add_a_key_value_pair
-  new_olympics = :Atlanta
-  year = "1996"
-  create_olympics_hash[new_olympics] = year
+  
+  # new_olympics = :Atlanta
+  # year = "1996"
+  # create_olympics_hash[new_olympics] = year
   
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
 end
